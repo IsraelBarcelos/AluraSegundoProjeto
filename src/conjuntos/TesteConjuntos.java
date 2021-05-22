@@ -1,12 +1,24 @@
 package conjuntos;
 
-import java.util.LinkedList;
-
 public class TesteConjuntos {
 
 	public static void main(String[] args) {
 		
-		LinkedList<String> conjunto = new LinkedList<String>();
+		Conjunto conjunto = new Conjunto();
+		conjunto.adiciona("jose");
+		System.out.println(conjunto);
+		conjunto.adiciona("jose");
+		System.out.println(conjunto);
+		conjunto.adiciona("mauricio");
+		System.out.println(conjunto);
+		conjunto.adiciona("arial");
+		System.out.println(conjunto);
+		conjunto.adiciona("yasmin");
+		System.out.println(conjunto);
+		conjunto.adiciona("josefildo");
+		System.out.println(conjunto);
+		conjunto.remove("josefildo");
+		System.out.println(conjunto);
 		
 	}
 
